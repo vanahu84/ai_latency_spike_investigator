@@ -1,0 +1,280 @@
+2025-09-22T02:21:15.560Z INFO SharedStateManager initialized
+2025-09-22T02:21:15.605Z INFO [Migration] Checking for database migration...
+2025-09-22T02:21:15.607Z INFO [Migration] No migration needed
+2025-09-22T02:21:15.608Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-22T02:21:15.634Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4] Project root:
+2025-09-22T02:21:15.635Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\prisma\schema.prisma] Schema path:
+2025-09-22T02:21:15.636Z INFO [file:/pythagora/pythagora-core/data/database/pythagora.db] Database URL:
+2025-09-22T02:21:15.646Z INFO [true] Schema exists:
+2025-09-22T02:21:15.647Z INFO Running prisma generate first...
+2025-09-22T02:22:17.027Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 3.99s
+
+] Prisma generate result:
+2025-09-22T02:22:17.028Z INFO Running prisma db push to sync schema...
+2025-09-22T02:22:30.692Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:/pythagora/pythagora-core/data/database/pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 6.15s
+
+] Prisma db push result:
+2025-09-22T02:22:30.693Z INFO Is remote: false
+2025-09-22T02:22:30.710Z INFO Starting Local. Installation path: undefined
+2025-09-22T10:02:31.889Z INFO Closing entire Pythagora extension...
+2025-09-22T10:02:37.899Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\out\extension.js:302:31)
+    at Object.deactivate (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\out\extension.js:212:15)
+    at aJ.eb (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-09-24T03:29:28.637Z INFO SharedStateManager initialized
+2025-09-24T03:29:28.765Z INFO [Migration] Checking for database migration...
+2025-09-24T03:29:28.766Z INFO [Migration] No migration needed
+2025-09-24T03:29:28.768Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-24T03:29:29.005Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4] Project root:
+2025-09-24T03:29:29.006Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\prisma\schema.prisma] Schema path:
+2025-09-24T03:29:29.006Z INFO [file:/pythagora/pythagora-core/data/database/pythagora.db] Database URL:
+2025-09-24T03:29:29.010Z INFO [true] Schema exists:
+2025-09-24T03:29:29.011Z INFO Running prisma generate first...
+2025-09-24T03:30:53.280Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 6.02s
+
+] Prisma generate result:
+2025-09-24T03:30:53.283Z INFO Running prisma db push to sync schema...
+2025-09-24T03:31:08.795Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:/pythagora/pythagora-core/data/database/pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 5.62s
+
+] Prisma db push result:
+2025-09-24T03:31:08.796Z INFO Is remote: false
+2025-09-24T03:31:08.798Z INFO Starting Local. Installation path: undefined
+2025-09-24T03:43:42.373Z INFO Closing entire Pythagora extension...
+2025-09-24T03:43:42.772Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\out\extension.js:302:31)
+    at Object.deactivate (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\out\extension.js:212:15)
+    at aJ.eb (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-09-24T03:45:39.682Z INFO SharedStateManager initialized
+2025-09-24T03:45:39.684Z INFO [Migration] Checking for database migration...
+2025-09-24T03:45:39.685Z INFO [Migration] No migration needed
+2025-09-24T03:45:39.686Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-24T03:45:39.738Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4] Project root:
+2025-09-24T03:45:39.740Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.4\prisma\schema.prisma] Schema path:
+2025-09-24T03:45:39.740Z INFO [file:/pythagora/pythagora-core/data/database/pythagora.db] Database URL:
+2025-09-24T03:45:39.741Z INFO [true] Schema exists:
+2025-09-24T03:45:39.743Z INFO Running prisma generate first...
+2025-09-24T03:46:16.758Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 8.34s
+
+] Prisma generate result:
+2025-09-24T03:46:16.759Z INFO Running prisma db push to sync schema...
+2025-09-24T03:46:23.325Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:/pythagora/pythagora-core/data/database/pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 832ms
+
+] Prisma db push result:
+2025-09-24T03:46:23.335Z INFO Is remote: false
+2025-09-24T03:46:23.338Z INFO Starting Local. Installation path: undefined
+2025-09-24T03:48:14.141Z INFO [[object Object]] MainProvider handleMessage
+2025-09-24T03:48:47.449Z INFO [[object Object]] MainProvider handleMessage
+2025-09-24T03:48:47.451Z INFO [[object Object]] Center panel message:
+2025-09-24T03:48:47.453Z INFO [[object Object]] MainProvider handleMessage
+2025-09-24T03:48:47.454Z INFO [[object Object]] Center panel message:
+2025-09-24T03:48:47.455Z INFO [MainProvider] Center panel ready - processing ready handler
+2025-09-24T03:48:47.456Z INFO [MainProvider] Center panel ready - flushing 0 buffered messages
+2025-09-24T03:48:47.457Z INFO [Message Router] Routing getProjectInfo through unified router
+2025-09-25T03:38:35.687Z INFO SharedStateManager initialized
+2025-09-25T03:38:35.763Z INFO [Migration] Checking for database migration...
+2025-09-25T03:38:35.826Z INFO [Migration] No migration needed
+2025-09-25T03:38:35.827Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-25T03:38:35.835Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6] Project root:
+2025-09-25T03:38:35.835Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6\prisma\schema.prisma] Schema path:
+2025-09-25T03:38:35.836Z INFO [file:/pythagora/pythagora-core/data/database/pythagora.db] Database URL:
+2025-09-25T03:38:35.837Z INFO [true] Schema exists:
+2025-09-25T03:38:35.838Z INFO Running prisma generate first...
+2025-09-25T03:39:47.486Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 962ms
+
+] Prisma generate result:
+2025-09-25T03:39:47.487Z INFO Running prisma db push to sync schema...
+2025-09-25T03:40:06.716Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:/pythagora/pythagora-core/data/database/pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 4.97s
+
+] Prisma db push result:
+2025-09-25T03:40:06.718Z INFO Is remote: false
+2025-09-25T03:40:06.736Z INFO Starting Local. Installation path: undefined
+2025-09-25T03:40:08.143Z INFO MainProvider handleMessage {"type":"codeScreenActivated","activeScreen":"code","reason":"file_opened","route":"forwardToLeft","source":"tabsManager"}
+2025-09-25T03:40:20.351Z ERROR Failed to restore file f:\cbase\python_course.md:
+Error: Could NOT open editor for "file:///f%3A/cbase/python_course.md".
+Stack: Error: Could NOT open editor for "file:///f%3A/cbase/python_course.md".
+    at $G.showTextDocument (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:63526)
+    at TabsManager.restoreTrackedFiles (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6\out\managers\TabsManager.js:287:21)
+    at TabsManager.handleCodeScreenActivated (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6\out\managers\TabsManager.js:223:13)
+2025-09-25T03:40:20.393Z INFO MainProvider handleMessage {"command":"centerBarReady","data":{},"source":"center"}
+2025-09-25T03:40:20.395Z INFO Center panel message: {"command":"centerBarReady","data":{},"source":"center"}
+2025-09-25T03:40:20.396Z INFO MainProvider handleMessage {"command":"ready","data":"ready","source":"center"}
+2025-09-25T03:40:20.397Z INFO Center panel message: {"command":"ready","data":"ready","source":"center"}
+2025-09-25T03:40:20.398Z INFO [MainProvider] Center panel ready - processing ready handler
+2025-09-25T03:40:20.398Z INFO [MainProvider] Center panel ready - flushing 0 buffered messages
+2025-09-25T03:40:20.399Z INFO [Message Router] Routing getProjectInfo through unified router
+2025-09-25T03:41:28.113Z INFO MainProvider: Center panel disposed
+2025-09-25T14:21:52.730Z INFO SharedStateManager initialized
+2025-09-25T14:21:53.568Z INFO [Migration] Checking for database migration...
+2025-09-25T14:21:53.780Z INFO [Migration] No migration needed
+2025-09-25T14:21:53.781Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-25T14:21:53.825Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6] Project root:
+2025-09-25T14:21:53.826Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6\prisma\schema.prisma] Schema path:
+2025-09-25T14:21:53.827Z INFO [file:/pythagora/pythagora-core/data/database/pythagora.db] Database URL:
+2025-09-25T14:21:53.997Z INFO [true] Schema exists:
+2025-09-25T14:21:53.998Z INFO Running prisma generate first...
+2025-09-25T14:24:41.619Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 22.73s
+
+] Prisma generate result:
+2025-09-25T14:24:41.620Z INFO Running prisma db push to sync schema...
+2025-09-25T14:25:05.968Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:/pythagora/pythagora-core/data/database/pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 10.80s
+
+] Prisma db push result:
+2025-09-25T14:25:05.970Z INFO Is remote: false
+2025-09-25T14:25:05.973Z INFO Starting Local. Installation path: undefined
+2025-09-25T14:41:17.613Z INFO MainProvider handleMessage {"type":"codeScreenActivated","activeScreen":"code","reason":"file_opened","route":"forwardToLeft","source":"tabsManager"}
+2025-09-25T14:41:29.847Z INFO MainProvider: Center panel disposed
+2025-09-26T09:02:55.778Z INFO Closing entire Pythagora extension...
+2025-09-26T09:03:14.804Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6\out\extension.js:302:31)
+    at Object.deactivate (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.6\out\extension.js:212:15)
+    at aJ.eb (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-09-26T09:08:14.298Z INFO SharedStateManager initialized
+2025-09-26T09:08:14.299Z INFO [Migration] Checking for database migration...
+2025-09-26T09:08:14.306Z INFO [Migration] No migration needed
+2025-09-26T09:08:14.308Z INFO [MainProvider] Creating new MainProvider instance...
+2025-09-26T09:08:14.322Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.8] Project root:
+2025-09-26T09:08:14.323Z INFO [c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.8\prisma\schema.prisma] Schema path:
+2025-09-26T09:08:14.324Z INFO [file:C:\Users\Nasir\AppData\Local\Temp\pythagora-temp\pythagora.db] Database URL:
+2025-09-26T09:08:14.325Z INFO [true] Schema exists:
+2025-09-26T09:08:14.326Z INFO Running prisma generate first...
+2025-09-26T09:09:47.971Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 6.28s
+
+] Prisma generate result:
+2025-09-26T09:09:47.973Z INFO Running prisma db push to sync schema...
+2025-09-26T09:10:07.054Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:C:\Users\Nasir\AppData\Local\Temp\pythagora-temp\pythagora.db"
+
+SQLite database pythagora.db created at file:C:\Users\Nasir\AppData\Local\Temp\pythagora-temp\pythagora.db
+
+Your database is now in sync with your Prisma schema. Done in 3.06s
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.2) to .\src\generated\prisma in 5.57s
+
+] Prisma db push result:
+2025-09-26T09:10:07.057Z INFO Is remote: false
+2025-09-26T09:10:07.060Z INFO Starting Local. Installation path: undefined
+2025-09-26T09:10:07.061Z INFO Installation path exists: f:\ai_data_scientist
+2025-09-26T09:15:39.913Z INFO Closing entire Pythagora extension...
+2025-09-26T09:15:40.881Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.8\out\extension.js:380:31)
+    at Object.deactivate (c:\Users\Nasir\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.8\out\extension.js:290:15)
+    at aJ.eb (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///f:/VS%20Code%20New/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)

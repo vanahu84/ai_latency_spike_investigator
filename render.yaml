@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: latency-spike-investigator
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: NEW_RELIC_API_KEY
+        sync: false
+      - key: DATADOG_API_KEY
+        sync: false
+      - key: DATADOG_APP_KEY
+        sync: false
+      - key: REDIS_URL
+        value: "redis://localhost:6379"
+      - key: SPIKE_THRESHOLD_MS
+        value: "1000"
+      - key: CORRELATION_WINDOW_MINUTES
+        value: "15"
+      - key: CACHE_TTL_SECONDS
+        value: "300"
+      - key: GEMINI_REQUESTS_PER_MINUTE
+        value: "60"
+      - key: DEBUG
+        value: "false"
+    healthCheckPath: /_stcore/health
