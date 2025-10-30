@@ -48,6 +48,12 @@ def main():
     """Main application entry point."""
     st.set_page_config(
         page_title="Latency Spike Investigator",
+        # ---- Embed Video at Top ----
+        st.markdown("### 📺 Watch Demo")
+        video_url = "https://drive.google.com/file/d/1vDIZzPJ8fHm7H8qkBQ_c3RlZk_NJBl89/preview"
+        st.components.v1.iframe(video_url, height=380)
+        st.markdown("---")
+
         page_icon="🔍",
         layout="wide",
         initial_sidebar_state="expanded"
@@ -147,4 +153,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
