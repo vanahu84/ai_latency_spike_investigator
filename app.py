@@ -52,7 +52,7 @@ def main():
         st.markdown("### 📺 Watch Demo")
         video_url = "https://drive.google.com/file/d/1vDIZzPJ8fHm7H8qkBQ_c3RlZk_NJBl89/preview"
         st.components.v1.iframe(video_url, height=380)
-        st.markdown("---")
+        st.markdown("---"),
 
         page_icon="🔍",
         layout="wide",
@@ -155,3 +155,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
